@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre programação orientada a objetos.</title>
+
+    <style type = "text/css">
+        body {background-color:rgba(105, 105, 105, 0.781)}
+        h1 {
+            background-color: darkgray;
+        }
+
+        h3{
+            background-color: darkgray;
+            
+        }
+        
+       p{
+          
+           text-align:justify;
+           
+       }
+
+       h1{
+           text-align: center;
+       }
+
+       h3 {
+           text-align: center;
+       }
+
+       body {
+           border-style:solid;
+           
+           
+       }
+
+       
+    
+
+
+
+      
+
+    </style>
+
+</head>
+
+
+<body>
+
+    
+<h1>Quiz: Programação Orientada a Objetos </h1>
+<h3> Nível: Fácil </h3>
+<form  method="post" action="respostas.php">
+    
+    <p> Nome do aluno:
+    <input type="text" name="nome"/>
+    </p>
+
+    <p> Data de nascimento:
+    <input type = "date" name = "data_nascimento"/>
+    </p>
+    <p> Instituição de ensino:
+    <input type="text" name="instituicao"/>
+    </p>
+    
+    <p> Cidade em que mora:
+
+    <select name="selecao">
+   
+    <option value = "canguaretama">Canguaretama</option>
+    <option value = "goianinha">Goianinha</option>
+    <option value = "montanhas">Montanhas</option>
+    <otion value = "pau_dos_ferros">Pau dos Ferros</option>
+    <option value = "pedro_velho">Pedro Velho</option>
+    <option value = "pipa">Pipa</option>
+    <option value = "sao_jose">São José de Mipibu</option>
+    <option value = "tibau">Tibau do Sul</option>
+    <option value = "touros">Touros</option>
+    
+    
+    
+    </select>
+
+    </p>
+
+    <p><b> Quais são os quatro pilares da Programação Orientada a Objetos?</b><br/>
+
+    
+    <input type = "radio" name = "pilares" value="aehp"/> Abstração, Encapsulamento, Herança e Polimorfismo.<br/>
+    <input type = "radio" name = "pilares" value="oame"/> Objetos, Atributos, Métodos e Estado.<br/>
+    <input type = "radio" name = "pilares" value="cpio"/> Pacote, Classe, Instância e Objeto.
+    
+    </p>
+
+    <p> <b>Quais são os métodos especiais da Programação Orientada a Objetos?</b><br/>
+
+    
+    <input type = "radio" name = "metodos" value="sgs"/> Setter, Getter, Scanner.<br/>
+    <input type = "radio" name = "metodos" value="gsc"/> Getter, Scanner, Construct.<br/>
+    <input type = "radio" name = "metodos" value="sgc"/> Setter, Getter, Construct.<br/>
+    
+    </p>
+
+    <p> <b>Na Programação Orientada a Objetos, que tipo de métodos são dispostos em uma interface?</b><br/>
+
+    
+    <input type = "radio" name = "void" value="c"/> Concretos.<br/>
+    <input type = "radio" name = "void" value="a"/> Abstratos.<br/>
+    <input type = "radio" name = "void" value="p"/> Públicos.
+    
+    </p>
+
+    <p>
+        <input type = "submit" value="Enviar respostas" />
+    </p>
+    
+    </form>
+
+    
+
+
+</body>
+
+</html>
