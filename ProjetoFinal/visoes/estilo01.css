@@ -1,0 +1,137 @@
+.titulo
+{
+margin-top: 30px;
+color: blue;
+}
+.container
+{
+ text-align:center;
+ margin-top: 20px;
+ padding: 10px;
+ background: rgb(202, 204, 204)
+}
+
+.imagem
+ { 
+ margin-top: 30px;
+ width:100%;
+ }
+
+ .texto
+ {
+ font-size: 100%;
+ margin-top: 30px;
+ font-family: Arial;
+ text-align: justify;
+ }
+
+.menu 
+{
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: rgb(223, 222, 222);
+}
+
+.card-text
+{
+ text-align: justify; 
+}
+
+.card
+{
+  border: 1px solid black;
+}
+
+.carousel-inner
+{
+  min-width: 100%;
+  height: 350px; 
+}
+.carousel-item
+{
+min-width: 100%;
+height: 350px; 
+}
+.img
+{
+min-width: 100%;
+height: 350px; 
+}
+
+.filtro
+{
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+
+.imagem-curso
+{
+  text-align:center;
+}
+
+.imagem-logo
+{
+  
+  margin: auto;
+  height: 250px;
+  width: 250px;
+}
+
+.detalhes-titulo
+{
+  text-align: center;
+  font-weight: 100px;
+}
+
+.texto-detalhes
+{
+ text-align: left;
+}
+
+.container
+{
+  background: rgb(238, 238, 252);
+}
+
+.formulario
+{
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.footer
+{
+  float: left;
+  padding: 20px;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0px;
+  width:100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+ 
+}
+
+.btn-custom
+{
+  border-radius: 50px; 
+}
+
+.card
+{
+  border: 1px solid black;
+}
+
+#logo
+{
+  width: 65px;
+}
+
+.table 
+{
+  border: solid black;
+}
